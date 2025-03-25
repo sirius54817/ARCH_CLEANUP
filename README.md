@@ -4,12 +4,25 @@ Tired of your Arch Linux looking like a digital hoarder's paradise? Fear not! Th
 
 🎯 What This Script Does
 
-✅ Nukes old pacman caches 🔥✅ Eradicates orphaned packages like they're unwanted guests 🏡❌✅ Wipes AUR cache (goodbye, ancient build files) 🚮✅ Compresses journal logs to free up space 📜✂️✅ Eliminates system logs (because who reads logs anyway?) 📄💨✅ Obliterates thumbnails, temp files, and user cache 🚀✅ Shows your disk space before and after, so you can flex your freed-up storage 💾💪
+✅ Nukes old pacman caches 🔥
 
-🛠️ Installation & Usage
+✅ Eradicates orphaned packages like they're unwanted guests 🏡❌
 
+✅ Wipes AUR cache (goodbye, ancient build files) 🚮
+
+✅ Compresses journal logs to free up space 📜✂️
+
+✅ Eliminates system logs (because who reads logs anyway?) 📄💨
+
+✅ Obliterates thumbnails, temp files, and user cache 🚀
+
+✅ Shows your disk space before and after, so you can flex your freed-up storage 💾💪
+
+## 🛠️ Installation & Usage
+```bash
 chmod +x arch_cleanup.py  # Make it executable
 sudo python3 arch_cleanup.py  # Run it like a boss
+```
 
 (sudo required for system-wide cleanup, because power!)
 
@@ -26,4 +39,5 @@ Because a bloated Arch system is basically not Arch. 😎
 Because you want to feel like a hacker while running Python scripts. 👨‍💻
 
 Enjoy your clean, minimal, and bloat-free Arch Linux! 🎉
+
 
