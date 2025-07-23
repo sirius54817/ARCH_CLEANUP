@@ -1,42 +1,66 @@
-🚀 Arch Cleanup Script
+
+# 🚀 Arch Linux Cleanup Script (TUI Edition)
 
 Tired of your Arch Linux looking like a digital hoarder's paradise? Fear not! This script will purge your system of all the unnecessary junk, orphaned packages, and outdated logs, leaving it cleaner than your conscience after deleting browser history. 🧹
 
-🎯 What This Script Does
+## � Features
 
-✅ Nukes old pacman caches 🔥
+- **Minimal, colorful TUI** with emoji icons and clear sections
+- **Shows disk usage before and after** cleanup
+- **Cleans pacman, AUR, temp, user, and dev caches**
+- **Removes orphaned packages**
+- **Vacuum journal logs** (keep only 1 day)
+- **Interactive confirmation** before running
+- **Silent operation** with clear, color-coded feedback
 
-✅ Eradicates orphaned packages like they're unwanted guests 🏡❌
-
-✅ Wipes AUR cache (goodbye, ancient build files) 🚮
-
-✅ Compresses journal logs to free up space 📜✂️
-
-✅ Eliminates system logs (because who reads logs anyway?) 📄💨
-
-✅ Obliterates thumbnails, temp files, and user cache 🚀
-
-✅ Shows your disk space before and after, so you can flex your freed-up storage 💾💪
+---
 
 ## 🛠️ Installation & Usage
+
 ```bash
-chmod +x arch_cleanup.py  # Make it executable
-sudo python3 arch_cleanup.py  # Run it like a boss
+chmod +x c2.sh  # Make it executable
+./c2.sh         # Run it (sudo will be prompted as needed)
 ```
 
-(sudo required for system-wide cleanup, because power!)
+---
 
-⚠️ Disclaimer
+## 🖥️ Preview
+
+```
+╔══════════════════════════════════════════════════════════╗
+║                 Arch Linux System Cleaner               ║
+╚══════════════════════════════════════════════════════════╝
+
+📊 Current disk usage:
+   Root: 195G used / 233G total (88% full)
+
+⚠️  This will clean system caches and remove orphaned packages.
+   Press ENTER to continue or Ctrl+C to cancel...
+
+🚀 Starting cleanup process...
+
+▶ Pacman Cache Cleanup
+🧼 Clearing pacman cache...
+✅ Pacman cache cleared
+...
+✨ System cleanup completed successfully!
+ℹ️  Final disk usage:
+   Root: 192G used / 233G total (87% full)
+```
+
+---
+
+## ⚠️ Disclaimer
 
 This script has the power to wipe things clean—so use it wisely! I'm not responsible if you accidentally summon the Linux gods by running this. 🙃
 
-🏆 Why Use This?
+---
 
-Because running df -h and seeing 5GB+ freed up is satisfying.
+## 🏆 Why Use This?
 
-Because a bloated Arch system is basically not Arch. 😎
-
-Because you want to feel like a hacker while running Python scripts. 👨‍💻
+- Because running `df -h` and seeing GBs freed up is satisfying.
+- Because a bloated Arch system is basically not Arch. 😎
+- Because you want a beautiful, interactive cleanup experience.
 
 Enjoy your clean, minimal, and bloat-free Arch Linux! 🎉
 
